@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../../../layout/custom_preview.xml" value="0.2794871794871795" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/drawable/chat_bubble_outgoing.xml" value="0.15364583333333334" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/drawable/chat_bubble_outgoing_ext.xml" value="0.1" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/drawable/circle.xml" value="0.1" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/drawable/circle_profile.xml" value="0.15260416666666668" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/drawable/ic_app_bg.xml" value="0.17447916666666666" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/drawable/img_profile.xml" value="0.136" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/drawable/input_chat_bubble.xml" value="0.1" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/drawable/input_circle.xml" value="0.1" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/achievement_fragment.xml" value="0.1" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/achievement_layout_item.xml" value="0.264" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/activity_email_authentication_screen.xml" value="0.39451728247914186" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/activity_main.xml" value="0.12773722627737227" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/activity_on_boarding.xml" value="0.1" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/activity_play_youtube_view.xml" value="0.1" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/activity_proceed_to_pay.xml" value="0.264" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/activity_welcome_screen.xml" value="0.2421875" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/alert_add_achievement.xml" value="0.264" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/announcement_fragment.xml" value="0.16302083333333334" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/announcement_row_item.xml" value="0.17417417417417416" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/app_header.xml" value="0.264" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/chat_fragment.xml" value="0.1" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/chat_group_fragment.xml" value="0.2" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/chat_incoming_row.xml" value="0.264" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/chat_outgoing_row.xml" value="0.264" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/content_proceed_to_pay.xml" value="0.1765625" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/course_detail_fragment.xml" value="0.1" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/course_session_item.xml" value="0.144" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/fragment_achievement_list.xml" value="0.264" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/fragment_all_course.xml" value="0.1" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/fragment_all_projects.xml" value="0.1" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/fragment_chat.xml" value="0.1" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/fragment_course.xml" value="0.2" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/fragment_knowledge_hub.xml" value="0.209375" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/fragment_learn.xml" value="0.23854166666666668" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/fragment_my_calender.xml" value="0.264" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/fragment_profile.xml" value="0.3573008849557522" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/fragment_second.xml" value="0.1765625" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/fragment_test_yourself.xml" value="0.4" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/my_cart_fragment.xml" value="0.1765625" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/orderby_item_options.xml" value="0.264" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/payment_fragment.xml" value="0.1" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/pricing_plans_fragment.xml" value="0.1" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/pricingplan_item.xml" value="0.264" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/project_detail_fragment.xml" value="0.1" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/project_layout.xml" value="0.264" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/session_detail_fragment.xml" value="0.264" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/single_course_layout.xml" value="0.23854166666666668" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/layout/webview_dialog.xml" value="0.12407407407407407" />
+        <entry key="..\:/android-workspace/skillzage-new/Skillzage/app/src/main/res/menu/bottom_nav_menu.xml" value="0.264" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2734375" />
+        <entry key="app/src/main/res/drawable/btn_bg.xml" value="0.2734375" />
+        <entry key="app/src/main/res/drawable/grey_box.xml" value="0.2734375" />
+        <entry key="app/src/main/res/drawable/ic_app_bg.xml" value="0.2734375" />
+        <entry key="app/src/main/res/drawable/ic_asterisk.xml" value="0.2734375" />
+        <entry key="app/src/main/res/drawable/ic_email_back.xml" value="0.2734375" />
+        <entry key="app/src/main/res/drawable/ic_facebook.xml" value="0.1484375" />
+        <entry key="app/src/main/res/drawable/ic_google_plus.xml" value="0.2734375" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2734375" />
+        <entry key="app/src/main/res/drawable/ic_linkedin.xml" value="0.1484375" />
+        <entry key="app/src/main/res/layout/achievement_fragment.xml" value="0.17604166666666668" />
+        <entry key="app/src/main/res/layout/activity_chat_group.xml" value="0.25729166666666664" />
+        <entry key="app/src/main/res/layout/activity_email_authentication_screen.xml" value="0.25333333333333335" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25729166666666664" />
+        <entry key="app/src/main/res/layout/activity_on_boarding.xml" value="0.25333333333333335" />
+        <entry key="app/src/main/res/layout/activity_welcome_screen.xml" value="0.22282608695652173" />
+        <entry key="app/src/main/res/layout/announcement_fragment.xml" value="0.20052083333333334" />
+        <entry key="app/src/main/res/layout/announcement_row_item.xml" value="0.20052083333333334" />
+        <entry key="app/src/main/res/layout/app_header.xml" value="0.25729166666666664" />
+        <entry key="app/src/main/res/layout/career_path_fragment.xml" value="0.2159744408945687" />
+        <entry key="app/src/main/res/layout/chat_group_fragment.xml" value="0.25729166666666664" />
+        <entry key="app/src/main/res/layout/experience_row_item.xml" value="0.25729166666666664" />
+        <entry key="app/src/main/res/layout/fragment_all_course.xml" value="0.25729166666666664" />
+        <entry key="app/src/main/res/layout/fragment_course.xml" value="0.25729166666666664" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25333333333333335" />
+        <entry key="app/src/main/res/layout/fragment_knowledge_hub.xml" value="0.14739583333333334" />
+        <entry key="app/src/main/res/layout/fragment_learn.xml" value="0.25729166666666664" />
+        <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/search_layout.xml" value="0.25729166666666664" />
+        <entry key="app/src/main/res/layout/short_term_career_row_item.xml" value="0.25729166666666664" />
+        <entry key="app/src/main/res/layout/single_course_layout.xml" value="0.25729166666666664" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.25729166666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

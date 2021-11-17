@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.abt.skillzage.ui.home.HomeFragment"
+        android:label="@string/title_nav_home"
+        tools:layout="@layout/fragment_home">
+
+
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_my_calender"
+            app:destination="@id/navigation_my_calender"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+
+
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_course"
+            app:destination="@id/navigation_course"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_allcourse"
+            app:destination="@id/navigation_allcourse"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_projects"
+            app:destination="@id/navigation_all_projects"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_knowledgehub"
+            app:destination="@id/navigation_knowledgehub"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_announcements"
+            app:destination="@id/navigation_announcements"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_chatgroup"
+            app:destination="@id/navigation_chatgroup"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_careerpath"
+            app:destination="@id/navigation_careerpath"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_achievement"
+            app:destination="@id/navigation_achievement_list"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+
+        <action
+            android:id="@+id/action_navigation_home_to_test_your_self"
+            app:destination="@id/navigation_test_ur_self"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+
+    </fragment>
+
+    <!--    <fragment-->
+    <!--        android:id="@+id/navigation_book"-->
+    <!--        android:name="com.abt.skillzage.ui.learn.LearnFragment"-->
+    <!--        android:label="@string/title_nav_learn"-->
+    <!--        tools:layout="@layout/fragment_learn" />-->
+
+
+
+    <fragment
+        android:id="@+id/navigation_book"
+        android:name="com.abt.skillzage.ui.all_course.AllCourseFragment"
+        android:label="@string/title_nav_allcourse"
+        tools:layout="@layout/fragment_course" >
+
+
+        <action
+            android:id="@+id/action_navigation_all_course_to_navigation_course_detail"
+            app:destination="@id/navigation_course_detail"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.abt.skillzage.ui.search.SearchFragment"
+        android:label="@string/title_nav_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.abt.skillzage.ui.notifications.NotificationsFragment"
+        android:label="@string/title_nav_notification"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.abt.skillzage.ui.profile.ProfileFragment"
+        android:label="@string/title_nav_profile"
+        tools:layout="@layout/fragment_profile" />
+
+
+    <fragment
+        android:id="@+id/navigation_all_projects"
+        android:name="com.abt.skillzage.ui.project.AllProjectsFragment"
+        android:label="@string/title_nav_project_detail"
+        tools:layout="@layout/fragment_all_projects" >
+
+
+        <action
+            android:id="@+id/action_navigation_project_to_navigation_project_detail"
+            app:destination="@id/navigation_projet_detail"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+
+        <action
+            android:id="@+id/action_navigation_project_to_navigation_knowledgehub"
+            app:destination="@id/navigation_knowledgehub"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+        <action
+            android:id="@+id/action_navigation_project_to_navigation_announcements"
+            app:destination="@id/navigation_announcements"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+
+        <action
+            android:id="@+id/action_navigation_project_to_navigation_allcourse"
+            app:destination="@id/navigation_allcourse"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+
+    </fragment>
+
+    <!--    Children Fragment -->
+    <fragment
+        android:id="@+id/navigation_course"
+        android:name="com.abt.skillzage.ui.course.CourseFragment"
+        android:label="@string/title_nav_course"
+        tools:layout="@layout/fragment_course">
+        <action
+            android:id="@+id/action_navigation_course_to_navigation_allcourse"
+            app:destination="@id/navigation_allcourse"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+        <action
+            android:id="@+id/action_navigation_course_to_navigation_course_detail"
+            app:destination="@id/navigation_course_detail"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_allcourse"
+        android:name="com.abt.skillzage.ui.all_course.AllCourseFragment"
+        android:label="@string/title_nav_allcourse"
+        tools:layout="@layout/fragment_all_course" >
+
+        <action
+            android:id="@+id/action_navigation_all_course_to_navigation_course_detail"
+            app:destination="@id/navigation_course_detail"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+
+        <action
+            android:id="@+id/action_navigation_all_course_to_navigation_announcement"
+            app:destination="@id/navigation_announcements"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_knowledgehub"
+        android:name="com.abt.skillzage.ui.knowledge.KnowledgeHubFragment"
+        android:label="@string/title_nav_knowledge"
+        tools:layout="@layout/fragment_knowledge_hub" />
+
+    <fragment
+        android:id="@+id/navigation_test_ur_self"
+        android:name="com.abt.skillzage.ui.test_yourself.TestYourself"
+        android:label="@string/title_nav_test_yourself"
+        tools:layout="@layout/fragment_test_yourself" >
+
+        <action
+            android:id="@+id/action_navigation_test_ur_self_to_home"
+            app:destination="@id/navigation_home"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+
+        <action
+            android:id="@+id/action_navigation_test_ur_self_to_navigation_course_detail"
+            app:destination="@id/navigation_course_detail"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+
+
+        <action
+            android:id="@+id/action_navigation_test_ur_self_to_navigation_projet_detail"
+            app:destination="@id/navigation_projet_detail"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_chat"
+        android:name="com.abt.skillzage.ui.chat.ChatFragment"
+        android:label="@string/title_nav_chat"
+        tools:layout="@layout/fragment_chat" >
+
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_announcements"
+        android:name="com.abt.skillzage.ui.announcements.AnnouncementFragment"
+        android:label="@string/title_nav_announcement"
+        tools:layout="@layout/announcement_fragment" />
+    <fragment
+        android:id="@+id/navigation_chatgroup"
+        android:name="com.abt.skillzage.ui.chat_group.ChatGroup"
+        android:label="@string/title_nav_chatgroup"
+        tools:layout="@layout/chat_group_fragment" >
+
+
+        <action
+            android:id="@+id/action_navigation_chat_gr_to_navigation_chat"
+            app:destination="@id/navigation_chat"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_careerpath"
+        android:name="com.abt.skillzage.ui.career_path.CareerPath"
+        android:label="@string/title_nav_careerpath"
+        tools:layout="@layout/career_path_fragment" />
+    <fragment
+        android:id="@+id/navigation_achievement"
+        android:name="com.abt.skillzage.ui.achievement.AchievementFragment"
+        android:label="@string/title_nav_achievement"
+        tools:layout="@layout/achievement_fragment" />
+    <fragment
+        android:id="@+id/navigation_projet_detail"
+        android:name="com.abt.skillzage.ui.project_detail.ProjectDetail"
+        android:label="@string/title_nav_project_detail"
+        tools:layout="@layout/project_detail_fragment" >
+
+        <action
+            android:id="@+id/action_navigation_projet_detail_to_navigation_test_ur_self"
+            app:destination="@id/navigation_test_ur_self"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+
+        <action
+            android:id="@+id/action_navigation_project_detail_to_navigation_project_detail"
+            app:destination="@id/navigation_projet_detail"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_achievement_list"
+        android:name="com.abt.skillzage.ui.achievementlist.AchievementListFragment"
+        android:label="@string/title_nav_achievement_list"
+        tools:layout="@layout/fragment_achievement_list" >
+
+        <action
+            android:id="@+id/action_navigation_achievement_list_to_navigation_achievement"
+            app:destination="@id/navigation_achievement"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_course_detail"
+        android:name="com.abt.skillzage.ui.course_detail.CourseDetail"
+        android:label="@string/title_nav_project_detail"
+        tools:layout="@layout/course_detail_fragment">
+        <action
+            android:id="@+id/action_navigation_course_detail_to_navigation_session_detail"
+            app:destination="@id/navigation_session_detail"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+        <action
+            android:id="@+id/action_navigation_course_detail_to_navigation_pricing_plans"
+            app:destination="@id/navigation_pricing_plans"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+
+        <action
+            android:id="@+id/action_navigation_course_detail_to_navigation_test_ur_self"
+            app:destination="@id/navigation_test_ur_self"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_session_detail"
+        android:name="com.abt.skillzage.ui.session_detail.SessionDetail"
+        android:label="@string/title_nav_session_detail"
+        tools:layout="@layout/session_detail_fragment" />
+    <fragment
+        android:id="@+id/navigation_pricing_plans"
+        android:name="com.abt.skillzage.ui.pricing_plans.PricingPlans"
+        android:label="@string/title_nav_pricing_plans"
+        tools:layout="@layout/pricing_plans_fragment">
+
+        <action
+            android:id="@+id/action_navigation_pricing_plans_to_navigation_my_cart"
+            app:destination="@id/navigation_my_cart"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_my_cart"
+        android:name="com.abt.skillzage.ui.cart.MyCart"
+        android:label="@string/title_nav_my_cart"
+        tools:layout="@layout/my_cart_fragment">
+        <action
+            android:id="@+id/action_navigation_my_cart_to_navigation_payment"
+            app:destination="@id/navigation_payment"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_payment"
+        android:name="com.abt.skillzage.ui.payment.PaymentFragment"
+        android:label="@string/title_nav_payment"
+        tools:layout="@layout/payment_fragment">
+        <action
+            android:id="@+id/action_navigation_payment_to_navigation_checkout"
+            app:destination="@id/navigation_checkout"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:launchSingleTop="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_checkout"
+        android:name="com.abt.skillzage.ui.checkout.CheckoutFragment"
+        android:label="@string/title_nav_checkout"
+        tools:layout="@layout/checkout_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_my_calender"
+        android:name="com.abt.skillzage.ui.mycalender.MyCalenderFragment"
+        android:label="@string/title_my_calender"
+        tools:layout="@layout/fragment_my_calender" />
+</navigation>

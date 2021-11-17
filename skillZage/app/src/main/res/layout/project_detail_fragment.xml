@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never"
+    tools:context=".ui.project_detail.ProjectDetail">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/labelNewPrjct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Projects"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_xlarge"
+            app:fontFamily="@font/poppins_bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/projectSection"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="@dimen/card_shadow"
+            app:cardUseCompatPadding="true"
+            app:contentPadding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/labelNewPrjct">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/labelProjectName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Project Name Lorem"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_large"
+                    app:fontFamily="@font/poppins_bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/projectImage"
+                    android:layout_width="0dp"
+                    android:layout_height="160dp"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="0dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/labelProjectName">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/projectimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/grey"
+                        android:scaleType="fitXY" />
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnQuit"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Quit"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    app:cornerRadius="40dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/projectImage" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnJoin"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Join"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    app:cornerRadius="40dp"
+                    app:layout_constraintEnd_toStartOf="@+id/btnQuit"
+                    app:layout_constraintTop_toBottomOf="@+id/projectImage" />
+
+                <LinearLayout
+                    android:id="@+id/layoutProjectDescription"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btnJoin">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Company:"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_normal"
+                        app:fontFamily="@font/poppins_bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/companyname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Company Name"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_normal"
+                        app:fontFamily="@font/poppins_regular"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Company Profile:"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_normal"
+                        app:fontFamily="@font/poppins_bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/companyprofiledesc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sample_logn_text"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_normal"
+                        app:fontFamily="@font/poppins_regular"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Description:"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_normal"
+                        app:fontFamily="@font/poppins_bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/projectdesc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sample_logn_text"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_normal"
+                        app:fontFamily="@font/poppins_regular"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Objective:"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_normal"
+                        app:fontFamily="@font/poppins_bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/projectobjective"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sample_logn_text"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_normal"
+                        app:fontFamily="@font/poppins_regular"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dates:"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_normal"
+                        app:fontFamily="@font/poppins_bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/projectvalidity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="05/01/2021 - 05/06/2021"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_normal"
+                        app:fontFamily="@font/poppins_regular"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <LinearLayout
+                        android:id="@+id/linearprojectcontent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/projectvalidity">
+
+                    <android.widget.VideoView
+                    android:layout_height="200dp"
+                    android:layout_width="match_parent"
+                    android:id="@+id/videourl_videoview"
+                    android:layout_marginTop="20dp"
+                    android:visibility="gone"
+                   />
+
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/videourl_youtube"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="20dp"
+                    android:visibility="gone"
+                    app:autoPlay="false"
+                    app:showFullScreenButton="false"
+                    />
+
+
+                <android.widget.VideoView
+                    android:layout_height="200dp"
+                    android:layout_width="match_parent"
+                    android:id="@+id/url1_videoview"
+                    android:layout_marginTop="20dp"
+                    android:visibility="gone"
+                    />
+
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/url1_youtube"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="20dp"
+                    app:autoPlay="false"
+                    app:showFullScreenButton="false"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/linear_url1_webview"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp"
+                    android:visibility="gone"
+                   >
+
+                   <WebView
+                    android:id="@+id/url1_webview"
+                    android:layout_width="match_parent"
+                    android:visibility="gone"
+                    android:layout_height="match_parent"
+                    />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/ur1_docx"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/docx"/>
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/ur1_pdf"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/pdf">
+
+                    </androidx.appcompat.widget.AppCompatImageView>
+
+                </LinearLayout>
+
+                <android.widget.VideoView
+                    android:layout_height="200dp"
+                    android:layout_width="match_parent"
+                    android:id="@+id/url2_videoview"
+                    android:layout_marginTop="20dp"
+                    android:visibility="gone"
+                    />
+
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/url2_youtube"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="20dp"
+                    app:autoPlay="false"
+                    app:showFullScreenButton="false"
+                    />
+
+
+                <LinearLayout
+                    android:id="@+id/linear_url2_webview"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp"
+                    android:visibility="gone"
+                    >
+
+                    <WebView
+                        android:id="@+id/url2_webview"
+                        android:layout_width="match_parent"
+                        android:visibility="gone"
+                        android:layout_height="match_parent"
+                        />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/url2_docx"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/docx"/>
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/url2_pdf"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/pdf">
+
+                    </androidx.appcompat.widget.AppCompatImageView>
+
+                </LinearLayout>
+
+
+
+                <android.widget.VideoView
+                    android:layout_height="200dp"
+                    android:layout_width="match_parent"
+                    android:id="@+id/url3_videoview"
+                    android:layout_marginTop="20dp"
+                    android:visibility="gone"
+                    />
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/url3_youtube"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="20dp"
+                    app:autoPlay="false"
+                    app:showFullScreenButton="false"
+                   />
+
+                <LinearLayout
+                    android:id="@+id/linear_url3_webview"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp"
+                    android:visibility="gone"
+                    >
+
+                    <WebView
+                        android:id="@+id/url3_webview"
+                        android:layout_width="match_parent"
+                        android:visibility="gone"
+                        android:layout_height="match_parent"
+                        />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/url3_docx"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/docx"/>
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/url3_pdf"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/pdf">
+
+                    </androidx.appcompat.widget.AppCompatImageView>
+
+                </LinearLayout>
+
+
+                </LinearLayout>
+
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/labelAssessment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Assessment"
+                    android:textColor="@color/black"
+                    android:visibility="gone"
+                    android:textSize="@dimen/text_large"
+                    app:fontFamily="@font/poppins_regular"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/layoutProjectDescription" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnDownload"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Download"
+                    android:visibility="gone"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    app:cornerRadius="40dp"
+                    app:layout_constraintEnd_toStartOf="@+id/btnUpload"
+                    app:layout_constraintHorizontal_chainStyle="packed"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/labelAssessment" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnUpload"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Upload"
+                    android:visibility="gone"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    app:cornerRadius="40dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_chainStyle="packed"
+                    app:layout_constraintStart_toEndOf="@+id/btnDownload"
+                    app:layout_constraintTop_toBottomOf="@id/labelAssessment" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnRetest"
+                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="65dp"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Test"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    app:cornerRadius="40dp"
+                    app:icon="@drawable/ic_outline_edit"
+                    app:iconGravity="textEnd"
+                    app:layout_constraintEnd_toStartOf="@+id/btnScore"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btnDownload" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnScore"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="@string/scoretext"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    app:cornerRadius="40dp"
+                    app:layout_constraintEnd_toStartOf="@+id/btnChat"
+                    app:layout_constraintStart_toEndOf="@+id/btnRetest"
+                    app:layout_constraintTop_toTopOf="@id/btnRetest" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnChat"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:textAllCaps="false"
+                    app:cornerRadius="40dp"
+                    app:icon="@drawable/ic_baseline_chat_bubble_24"
+                    app:iconGravity="textEnd"
+                    app:iconTint="@color/black"
+                    app:layout_constraintEnd_toStartOf="@+id/btnShare"
+                    app:layout_constraintStart_toEndOf="@+id/btnScore"
+                    app:layout_constraintTop_toTopOf="@id/btnRetest" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnShare"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:textAllCaps="false"
+                    app:cornerRadius="40dp"
+                    app:icon="@drawable/ic_baseline_share_24"
+                    app:iconGravity="textEnd"
+                    app:iconTint="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/btnChat"
+                    app:layout_constraintTop_toTopOf="@id/btnRetest" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="@dimen/card_shadow"
+            app:cardUseCompatPadding="true"
+            app:contentPadding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/projectSection">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/labelCompletedProjects"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Completed Projects"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_xlarge"
+                    app:fontFamily="@font/poppins_bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/completedProjectList"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/labelCompletedProjects" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

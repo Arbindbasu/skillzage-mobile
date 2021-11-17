@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_app_bg"
+    tools:context=".WelcomeScreen">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/applogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/welcomehint"
+        android:layout_marginTop="?actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/welcomehint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Welcome to Skillzage!"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/btnlayout"
+        android:textSize="@dimen/text_xxxlarge"
+        app:fontFamily="@font/poppins_extrabold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/applogo" />
+
+    <LinearLayout
+        android:id="@+id/btnlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="?actionBarSize"
+        android:layout_marginTop="?actionBarSize"
+        android:layout_marginEnd="?actionBarSize"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomehint">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnFacebook"
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Facebook"
+            app:icon="@drawable/ic_facebook"
+            app:iconGravity="textStart"
+            android:textAllCaps="false"
+            app:backgroundTint="@color/social_btn_color"
+            app:cornerRadius="20dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLinkedIn"
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:fontFamily="@font/poppins_bold"
+            android:text="LinkedIn"
+            app:icon="@drawable/ic_linkedin"
+            app:iconGravity="textStart"
+            android:textAllCaps="false"
+            app:backgroundTint="@color/social_btn_color"
+            app:cornerRadius="20dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnEmail"
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Email"
+            android:textAllCaps="false"
+            app:icon="@drawable/ic_email_back"
+            app:iconGravity="textStart"
+            app:backgroundTint="@color/active_orange"
+            app:cornerRadius="20dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

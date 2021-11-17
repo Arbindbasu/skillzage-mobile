@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Skillzage</string>
+    <string name="tagline">Skills to build <font fgcolor='#FA8231'>a better future</font></string>
+    <string name="label_login_hint">Login with your site account</string>
+    <string name="please_fill_in_the_details">Please fill in the details</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chart_gradient_subtitle"><font fgcolor='#000000'>Chart Gradient</font>\nSubtitle</string>
+    <!--    Bottom Navigation-->
+    <string name="title_nav_home">Home</string>
+    <string name="title_nav_learn">Learn</string>
+    <string name="title_nav_search">Search</string>
+    <string name="title_nav_notification">Notification</string>
+    <string name="title_nav_profile">Profile</string>
+    <string name="title_nav_course">Course</string>
+    <string name="title_nav_allcourse">All Course</string>
+    <string name="title_nav_knowledge">Knowledge Hub</string>
+    <string name="title_nav_announcement">Announcements</string>
+    <string name="title_nav_chatgroup">My Chat Groups</string>
+    <string name="title_nav_careerpath">Career Path</string>
+    <string name="title_nav_achievement">Achievements</string>
+    <string name="title_nav_project_detail">Project Detail</string>
+    <string name="title_nav_course_detail">Course Detail</string>
+    <string name="title_nav_session_detail">Session Detail</string>
+    <string name="title_nav_pricing_plans">Pricing Plans</string>
+    <string name="title_nav_my_cart">My Cart</string>
+    <string name="title_nav_payment">Checkout</string>
+    <string name="title_nav_checkout">Checkout</string>
+    <string name="title_nav_achievement_list">Achievement</string>
+    <string name="title_nav_test_yourself">Test YourSelf</string>
+    <string name="title_nav_chat">Chat</string>
+    <string name="title_my_calender">My Calender</string>
+
+    <!--    UI ELEMNT -->
+    <string name="sample_logn_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nihil obcaecati nisi ea doloribus magnam ut cupiditate? Aperiam, quisquam! Asperiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nihil obcaecati nisi ea doloribus magnam ut cupiditate? Aperiam, quisquam! Asperiores?</string>
+    <string name="institution_courses">Institution Courses</string>
+    <string name="projects">Projects</string>
+    <string name="institution_name">Institution Name</string>
+    <string name="book_your_slot">Book Your Slot</string>
+    <string name="scoretext">00\nscore</string>
+    <string name="annual_subscription_pay_only_45_save_25">Annual subscription pay only $45 <font fgcolor='#FA8231'>(save 25%)</font></string>
+    <string name="industry_projects"><![CDATA[• <strike>Industry projects</strike>]]></string>
+
+    <string name="rationale_photo_picker">We require this permission to select photo from gallery and camera.</string>
+    <string name="rationale_doc_picker">We need this permission to read documents from device.</string>
+
+
+    <string name="login">http://103.241.145.14:8061/skillzag/auth/users/login</string>
+    <string name="baseurl">http://103.241.145.14:8061/</string>
+    <string name="baseurl2">http://103.241.145.14:8062/</string>
+    <string name="baseurl3">http://103.241.145.14:8063/</string>
+    <string name="baseurl4">http://103.241.145.14:8064/</string>
+    <string name="baseurl5">http://103.241.145.14:8065/</string>
+    <string name="youtubeapikey">AIzaSyBeqi-wB-XvoJWXE1UqSnCIiNMuaTfTLOA</string>
+
+    <string name="basechaturl">http://testskillzag.in/#/</string>
+    <string name="not_to_refresh_page">You are redirecting to skillzage payment page. Please wait for a while</string>
+
+    <!--    <string name="facebook_app_id">902144263743161</string>-->
+    <!--    <string name="fb_login_protocol_scheme">fb02144263743161</string>-->
+
+
+    <!--    Facebook -->
+    <string name="facebook_app_id">410586317147488</string>
+    <string name="fb_login_protocol_scheme">fb410586317147488</string>
+    <string name="fb_client_id">3956b6f1961bb7c698de88bee171ef4f</string>
+    <string name="graph_access_token">EAAF1bROVTWABAKJT78FGRZCaS358x0hgUFPqfVlHCVvjb07kAkl87ZAMYnXsALiiuI4n5PoBZCLcxSDzZAzKLFkm1YqiaipZAkKgYOKul1rtDxiPxYcEstCN9epf09I7yiDWHmmUwZCJg69O7uvZB76GYNeZBmUFbPEEZB8FHWteszsuyk4cdKohiTdPKHIMffybpvJr7Clv6nQZDZD</string>
+
+    <!--    Linked In-->
+    <string name="linkedin_client_secret">1odu5uoU6YbRcFpg</string>
+    <string name="linkedin_client_id">867tzmumd9c28k</string>
+
+    <!--    Social media strings -->
+    <string name="facebook_logout_error">Facebook logout failed</string>
+    <string name="facebook_request_cancel">Facebook request cancel</string>
+    <string name="facebook_login_error">Facebook login failed</string>
+    <string name="context_error">mContext should be an instanceof Activity.</string>
+    <string name="google_login_success">Google account login successfully</string>
+    <string name="google_logout_success">Google account logout successfully</string>
+    <string name="general_error">Something went wrong</string>
+    <string name="auth_error">Authentication Error</string>
+    <string name="linkedin_request_cancel">LinkedIn request cancel</string>
+    <string name="title_activity_proceed_to_pay">ProceedToPay</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+</resources>

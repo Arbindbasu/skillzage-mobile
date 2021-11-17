@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="12dp"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/profile_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:src="@drawable/no_profile_img" />
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chat_bubble_incoming"
+            android:layout_toEndOf="@id/profile_image">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="left"
+                    android:maxLines="1"
+                    android:text="Robert Downey"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvMsg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvName"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:layout_marginBottom="6dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_alignLeft="@id/tvName"
+                    android:ellipsize="end"
+                    android:text="Okay, Bye. "
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/black" />
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvMsg"
+                    android:layout_alignLeft="@id/tvName"
+                    android:layout_marginTop="3dp"
+                    android:gravity="left"
+                    android:maxLines="1"
+                    android:text="Yesterday"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/lightchattextgray"
+                    android:textSize="10sp" />
+
+        </RelativeLayout>
+        
+</RelativeLayout>
